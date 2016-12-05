@@ -15,9 +15,8 @@ RUN \
   # upgrade npm
   npm install -g npm && \
 
-  # install yeoman bower gulp yarn
+  # install bower gulp yarn
   npm install -g \
-    yo \
     bower \
     gulp-cli \
     yarn && \
